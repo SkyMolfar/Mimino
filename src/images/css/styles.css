@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('TimesNewRomanPSMT.eot');
+    src: local('Times New Roman'), local('TimesNewRomanPSMT'),
+        url('TimesNewRomanPSMT.eot?#iefix') format('embedded-opentype'),
+        url('TimesNewRomanPSMT.woff') format('woff'),
+        url('TimesNewRomanPSMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Film P3';
+    src: local('Film P3 Narrow'), local('Film-P3-Narrow'),
+        url('FilmP3Narrow.woff2') format('woff2'),
+        url('FilmP3Narrow.woff') format('woff'),
+        url('FilmP3Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
