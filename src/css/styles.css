@@ -67,9 +67,8 @@ ol {
     font-style: normal;
 }
 
-:root{
-    --Akzent-yello:#F3C653;
-    --Color-footer:#0E0C07;
+:root {
+    --Akzent-yello: #F3C653;
+    --Color-footer: #0E0C07;
     --soc-color: rgba(243, 198, 83, 0.7)
-    
 }
